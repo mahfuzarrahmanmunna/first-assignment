@@ -165,6 +165,7 @@ nav .nav-header {
     background-origin: content-box;
     padding: 24px;
     border: 0.5px solid rgba(14, 14, 14, 0.041);
+    margin-bottom: 80px;
 }
 .padding {
     background-repeat: no-repeat;
@@ -173,4 +174,20 @@ nav .nav-header {
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* Recent News Section */
+.news-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: aliceblue;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+
+.news-class img {
+    border-radius: 24px;
 }
