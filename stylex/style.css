@@ -75,7 +75,9 @@ nav .nav-header {
 .font-color-0E0E0E {
     color: rgba(14, 14, 14, 0.5);
 }
-
+.center-item {
+    text-align: center;
+}
 .primary-btn {
     padding: 17px 34px;
     background-color: rgba(0, 106, 80, 1);
@@ -190,4 +192,195 @@ nav .nav-header {
 
 .news-class img {
     border-radius: 24px;
+}
+
+/* News Button Style */
+.first-news-btn {
+    padding: 13px 26px;
+    background-color: rgb(93, 99, 175);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first-news-btn:hover{
+    color: rgb(217, 255, 0);
+    background-color: rgb(128, 128, 128);
+    box-shadow: 5px 10px 8px 10px rgba(104, 47, 47, 0.979);
+}
+.first-news-btn:active {
+    color: rgb(255, 0, 34);
+    background-color: rgb(37, 16, 16);
+    box-shadow: 5px 10px 8px 10px rgba(253, 201, 201, 0.979);
+}
+.second-news-btn {
+    padding: 13px 26px;
+    background-color: rgb(116, 175, 93);
+    color: rgb(7, 5, 5);
+    border-style: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.second-news-btn:hover {
+    color: rgb(3, 2, 5);
+    background-color: rgb(40, 33, 126);
+    box-shadow: 5px 10px 8px 10px rgba(138, 195, 228, 0.979);
+}
+.second-news-btn:active {
+    color: rgb(255, 0, 34);
+    background-color: rgb(37, 16, 16);
+    box-shadow: 5px 10px 8px 10px rgba(253, 201, 201, 0.979);
+}
+
+
+/* Donate Section Style */
+
+
+.donate {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0;
+}
+
+.amount {
+    padding: 17px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.one:hover {
+    color: rgb(6, 3, 7);
+    background-color: rgb(1, 105, 224);
+    box-shadow: 5px 10px 8px 10px rgba(12, 4, 4, 0.788);
+    border-radius: 16px;
+}
+.one:active{
+    color: rgb(8, 1, 14);
+    background-color: rgb(116, 84, 204);
+    box-shadow: 5px 10px 8px 10px rgba(120, 99, 240, 0.979);
+}
+.two:hover {
+    color: rgb(8, 1, 14);
+    background-color: rgb(108, 55, 255);
+    box-shadow: 5px 10px 8px 10px rgba(240, 99, 181, 0.979);
+    border-radius: 16px;
+}
+.two {
+    background-color: aqua;
+}
+.two:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(183, 228, 220);
+    box-shadow: 5px 10px 8px 10px rgba(66, 160, 147, 0.979);
+    border-radius: 16px;
+}
+
+.five {
+    background-color: cadetblue;
+    border-radius: 16px;
+
+}
+.five:hover {
+    color: rgba(1, 255, 86, 0.952);
+    background-color: rgb(177, 190, 228);
+    box-shadow: 5px 10px 8px 10px rgba(134, 226, 214, 0.979);
+    border-radius: 16px;
+}
+.five:active {
+    color: rgba(180, 47, 151, 0.952);
+    background-color: rgb(228, 177, 225);
+    box-shadow: 5px 10px 8px 10px rgba(226, 158, 215, 0.979);
+    border-radius: 16px;
+}
+.ten {
+    background-color: bisque;
+    border-radius: 16px;
+}
+.ten:hover {
+    color: rgba(122, 223, 135, 0.952);
+    background-color: rgb(250, 12, 234);
+    box-shadow: 5px 10px 8px 10px rgba(221, 90, 199, 0.979);
+    border-radius: 16px;
+}
+.ten:active {
+    color: rgba(0, 255, 34, 0.952);
+    background-color: rgba(112, 83, 110, 0.774);
+    box-shadow: 5px 10px 8px 10px rgba(255, 0, 212, 0.979);
+    border-radius: 16px;
+}
+#first-input {
+    padding: 20px;
+    width: 800px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-section {
+    text-align: center;
+}
+.donate-btn {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+.donate-btn:hover {
+    color: rgb(8, 1, 14);
+    background-color: rgb(116, 84, 204);
+    box-shadow: 5px 10px 8px 10px rgba(120, 99, 240, 0.979);
+}
+.donate-btn:active{
+    color: rgb(255, 0, 34);
+    background-color: rgb(37, 16, 16);
+    box-shadow: 5px 10px 8px 10px rgba(253, 201, 201, 0.979);
+}
+
+/* News Letter Section Style */
+#second-input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+#second-input {
+    border: none;
+    padding: 18px 40px;
+    width: 600px;
+}
+.subscribe button{
+    padding: 17px 34px;
+    background-color: rgb(5, 230, 5);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.newsletter-section{
+    background-color: rgba(10, 228, 173, 0.699);
+    border-radius: 24px;
+    padding: 80px 265px;
+    margin-top: 80px;
 }
