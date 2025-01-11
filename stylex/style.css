@@ -105,6 +105,7 @@ nav .nav-header {
     justify-content: space-around;
     align-items: baseline;
     gap: 24px;
+    margin-bottom: 80px;
 }
 /* card style */
 .card-model {
@@ -154,4 +155,22 @@ nav .nav-header {
     color: rgb(110, 26, 68);
     background-color: white;
     box-shadow: 5px 10px 8px 10px gray;
+}
+
+.quote-section {
+    background-color: aliceblue;
+    border-radius: 16px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding: 24px;
+    border: 0.5px solid rgba(14, 14, 14, 0.041);
+}
+.padding {
+    background-repeat: no-repeat;
+}
+.quet-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
 }
